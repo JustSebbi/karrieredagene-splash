@@ -5,7 +5,7 @@ interface SwirlingBackgroundProps {
 }
 
 export default function SwirlingBackground({
-  color = "#05df72",
+  color = "#677b4c",
   width = 6,
   className = "",
 }: SwirlingBackgroundProps) {

@@ -5,18 +5,25 @@ import Image from "next/image";
 
 export default function Home() {
   const categories = [
-    { name: "Kurs", color: "bg-red-300" },
     { name: "Rekruttering", color: "bg-orange-300" },
     { name: "Faglig utvikling", color: "bg-yellow-300" },
     { name: "Samarbeid", color: "bg-green-400" },
-    { name: "Bedpress", color: "bg-blue-300" },
+    { name: "Bedriftsarrangement", color: "bg-blue-300" },
+    { name: "Workshop", color: "bg-red-300" },
   ];
 
   return (
     <main className="flex min-h-screen flex-col items-center p-24 gap-10">
       <SwirlingBackground />
-      <div className="flex flex-col items-center justify-center w-1/3 h-screen">
-        <h1 className="text-5xl">
+      <Image
+        alt="Dotdagene logo"
+        src="/logo_cropped.svg"
+        className="max-w-xs lg:max-w-full"
+        width={800}
+        height={800}
+      />
+      <div className="flex flex-col items-center justify-center w-1/3 h-96 space-y-4">
+        <h1 className="text-3xl">
           Helt nye karrieredager på NTNU fra <b>våren 2026</b>
         </h1>
         <p className="text-4xl mt-4 mb-5">
@@ -38,16 +45,18 @@ export default function Home() {
         Hvem er <b>vi</b>?
       </h1>
       <Image
-        alt="teamet som koser seg i solnedgangen"
-        src="/team.jpg"
+        alt="Teamet som driver dotdagene"
+        src="/teamet.jpg"
         width={600}
         height={600}
       />
-      <p className="lg:w-1/2 text-center text-xl">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga eligendi,
-        aliquam commodi quisquam nemo eius neque! Voluptatibus sapiente eius
-        voluptas cupiditate dolore officiis cum quam sunt. Ipsum corrupti
-        accusamus cupiditate!
+      <p className="lg:w-1/2 text-xl">
+        dotDAGENE er bedriftsdagene drevet av engasjerte studenter ved
+        linjeforeningen Informatikk ved NTNU. Arrangementet vil finne sted på
+        vårsemesteret, der studenter får muligheten til å møte fremtidige
+        arbeidsgivere gjennom kurs, stands og sosiale arrangementer. Dette er en
+        unik arena for å bygge nettverk, lære mer om bransjen – og kanskje finne
+        din neste sommerjobb eller drømmearbeidsgiver!
       </p>
     </main>
   );

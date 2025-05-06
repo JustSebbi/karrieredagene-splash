@@ -49,9 +49,9 @@ export default function Home() {
         src="/teamet.jpg"
         width={600}
         height={600}
-        className="min-w-96"
+        className="min-w-[20rem]"
       />
-      <p className="lg:w-1/2 text-xl">
+      <p className="lg:w-1/2 w-[18rem] text-xl">
         <b>dotDAGENE</b> er bedriftsdagene drevet av engasjerte studenter ved
         linjeforeningen Informatikk ved NTNU. Arrangementet vil finne sted på
         vårsemesteret, der studenter får muligheten til å møte fremtidige

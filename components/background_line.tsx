@@ -10,7 +10,9 @@ export default function SwirlingBackground({
   className = "",
 }: SwirlingBackgroundProps) {
   return (
-    <div className={`fixed inset-y-0 left-1/4 -z-10 h-full ${className}`}>
+    <div
+      className={`fixed inset-y-0 left-[2%] lg:left-1/5 -z-10 h-full ${className}`}
+    >
       <svg
         width="100"
         height="100%"

@@ -49,14 +49,15 @@ export default function Home() {
         src="/teamet.jpg"
         width={600}
         height={600}
+        className="min-w-96"
       />
       <p className="lg:w-1/2 text-xl">
-        dotDAGENE er bedriftsdagene drevet av engasjerte studenter ved
+        <b>dotDAGENE</b> er bedriftsdagene drevet av engasjerte studenter ved
         linjeforeningen Informatikk ved NTNU. Arrangementet vil finne sted på
         vårsemesteret, der studenter får muligheten til å møte fremtidige
-        arbeidsgivere gjennom kurs, stands og sosiale arrangementer. Dette er en
-        unik arena for å bygge nettverk, lære mer om bransjen – og kanskje finne
-        din neste sommerjobb eller drømmearbeidsgiver!
+        arbeidsgivere gjennom stands, workshops og sosiale arrangementer. Dette
+        er en unik arena for å bygge nettverk, lære mer om bransjen – og kanskje
+        finne din neste sommerjobb eller drømmearbeidsgiver!
       </p>
     </main>
   );
